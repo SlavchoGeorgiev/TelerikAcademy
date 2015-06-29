@@ -1,0 +1,19 @@
+01 - Programming language C
+
+	A general-purpose, imperative programming language developed in the early '70s, C is the oldest and most widely used language, providing the building blocks for other popular languages, such as C#, Java, JavaScript and Python. C is mostly used for implementing operating systems and embedded applications.
+
+02 - Programming language C++
+
+	C++ is an intermediate-level language with object-oriented programming features, originally designed to enhance the C language. C++ powers major software like Firefox, Winamp and Adobe programs. It's used to develop systems software, application software, high-performance server and client applications and video games.
+
+03 - Programming language Java
+
+	 Java is a class-based, object-oriented programming language developed by Sun Microsystems in the 1990s. It's one of the most in-demand programming languages, a standard for enterprise software, web-based content, games and mobile apps, as well as the Android operating system. Java is designed to work across multiple software platforms, meaning a program written on Mac OS X, for example, could also run on Windows.
+
+04 - Programming language PHP
+
+	PHP (Hypertext Processor) is a free, server-side scripting language designed for dynamic websites and app development. It can be directly embedded into an HTML source document rather than an external file, which has made it a popular programming language for web developers. PHP powers more than 200 million websites, including Wordpress, Digg and Facebook.
+
+05 - Programming language Python
+
+	 Python is a high-level, server-side scripting language for websites and mobile apps. It's considered a fairly easy language for beginners due to its readability and compact syntax, meaning developers can use fewer lines of code to express a concept than they would in other languages. It powers the web apps for Instagram, Pinterest and Rdio through its associated web framework, Django, and is used by Google, Yahoo! and NASA.

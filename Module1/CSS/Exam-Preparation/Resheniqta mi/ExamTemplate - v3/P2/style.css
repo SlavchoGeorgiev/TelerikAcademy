@@ -1,0 +1,158 @@
+﻿html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {
+    font-family: Constantina, Georgia, 'Nimbus Roman No9 L', serif;
+    font-size: 16px;
+}
+
+.menu {
+    list-style: none;
+}
+
+    .menu > li {
+        text-align: center;
+        background: #B6FF00;
+        border-radius: 15px;
+        margin-top: 10px;
+        padding: 10px 10px;
+        width: 150px;
+        position: relative;
+    }
+
+        .menu > li:hover > a {
+            text-decoration: underline;
+        }
+
+        .menu > li:hover div.content {
+            display: block;
+            position: absolute;
+            top: -10px;
+            left: 170px;
+        }
+
+        .menu > li:hover .sub-menu {
+            list-style: none;
+        }
+
+        .menu > li:hover li {
+            width: 500px;
+            background: #008000;
+            border-radius: 10px;
+            margin: 10px 0;
+            padding: 20px 20px;
+            text-align: left;
+        }
+
+            .menu > li:hover li:hover a {
+                text-decoration: underline;
+            }
+
+            .menu > li:hover li a:hover {
+                text-decoration: underline;
+            }
+
+            .menu > li:hover a:hover + img {
+                display: block;
+                width: 500px;
+                border-radius: 10px;
+                margin-top: 10px;
+            }
+
+            .menu > li:hover li a {
+                text-decoration: none;
+                color: #FFF;
+            }
+
+        .menu > li > a {
+            text-decoration: none;
+            color: #000;
+        }
+
+li > a:hover {
+    text-decoration: underline;
+}
+
+.menu > li div.content {
+    display: none;
+}
+
+img {
+    display: none;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,100 @@
+﻿body, h1, h2, h3, h4, h5, h6, ul, li, div, nav, section, fieldset {
+    margin: 0;
+    padding: 0;
+    font: 16px;
+    font-family: Arial, Verdana, sans-serif;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+
+    li {
+        display: inline-block;
+    }
+}
+
+#main-container {
+    width: 1065px;
+    border: 3px solid black;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+
+    nav {
+        border-bottom: 3px solid #000;
+        padding: 12px 0;
+        margin: 0 35 px;
+
+        a {
+            color: #00adf0;
+            font-size: 2.3rem;
+        }
+    }
+
+    section:after {
+        content: ".";
+        display: block;
+        clear: both;
+        visibility: hidden;
+        height: 0;
+    }
+}
+
+#product-list {
+    border: 3px solid black;
+    width: 674px;
+    padding: 8px;
+    margin: 15px;
+    float: left;
+
+    div.product {
+        display: inline-block;
+        width: 331px;
+        font-size: 1.7rem;
+        line-height: 3.0rem;
+        margin-bottom: 10px;
+
+        fieldset {
+            border: 3px solid black;
+            padding: 10px;
+
+            legend {
+                font-size: 1.7rem;
+                line-height: 1.0rem;
+                text-align: center;
+            }
+
+            img {
+                float: left;
+            }
+
+            div {
+                display: inline-block;
+            }
+
+            div.price {
+                float: left;
+                line-height: 1.9rem;
+            }
+        }
+    }
+}
+
+#filters {
+    display: inline-block;
+    width: 320px;
+    font-size: 2rem;
+    padding: 5px;
+
+    label {
+        display: block;
+        margin: 25px 0;
+    }
+
+    input {
+        display: block;
+        width: 100%;
+        margin: 25px 0;
+    }
+}

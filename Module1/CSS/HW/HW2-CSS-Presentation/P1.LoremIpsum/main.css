@@ -1,0 +1,19 @@
+﻿body {
+    font-size: 16px;
+    color: black;
+}
+
+article {
+    font-family: Consolas;
+    color: #0094ff;
+    font-size: 1.1em;
+}
+
+p:first-line {
+    font-weight: bold;
+}
+
+p:first-letter {
+    font-size: 3em;
+    font-family: "Edwardian Script ITC";
+}

@@ -1,0 +1,241 @@
+﻿html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+body {
+  line-height: 1;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+nav ul,
+aside ul {
+  list-style: none;
+}
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  color: #cb8af7;
+}
+body {
+  background-color: #9116f1;
+  color: #ffffff;
+}
+body > header {
+  background: #d791ff;
+  background: -moz-linear-gradient(top, #d791ff 0, #9116f1 100);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #d791ff), color-stop(100, #9116f1));
+  background: -webkit-linear-gradient(top, #d791ff 0, #9116f1 100);
+  background: -o-linear-gradient(top, #d791ff 0, #9116f1 100);
+  background: -ms-linear-gradient(top, #d791ff 0, #9116f1 100);
+  background: linear-gradient(to bottom, #d791ff 0, #9116f1 100);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@from-color', endColorstr='@to-color', GradientType=0);
+  font-size: 20.8px;
+}
+body > header #header-container {
+  zoom: 1;
+}
+body > header #header-container #logo-container {
+  float: left;
+  margin: 30px 0 0 21px;
+}
+body > header #header-container #reg-form-container {
+  font-size: 16px;
+  float: right;
+  margin: 30px;
+  margin-right: 80px;
+  margin-bottom: 0;
+  text-align: right;
+}
+body > header #header-container #reg-form-container input {
+  margin: 5px;
+  color: #ffffff;
+  width: 140px;
+  border: 2px inset #9116f1;
+  border-radius: 15px;
+  background-color: #a846f4;
+  padding: 5px;
+}
+body > header #header-container #reg-form-container #btn-register {
+  height: 35px;
+  width: 90px;
+  margin: 10px;
+  position: relative;
+  right: 150px;
+  border: 3px outset #be76f7;
+  background-color: transparent;
+  border-radius: 15px;
+  color: #ffffff;
+  font-weight: bold;
+}
+body > header #header-container:after {
+  content: ".";
+  display: block;
+  clear: both;
+  height: 0;
+  line-height: 0;
+  visibility: hidden;
+}
+body > header nav {
+  margin: 0px 40px 50px;
+  border: 2px solid #000000;
+  border-radius: 15px;
+  width: 73%;
+}
+body > header nav a {
+  text-decoration: none;
+  color: #ffffff;
+}
+body > header nav > ul > li {
+  padding: 15px;
+  display: inline-block;
+  position: relative;
+}
+body > header nav > ul > li > ul {
+  display: none;
+}
+body > header nav > ul > li:hover ul {
+  font-weight: 8px;
+  width: 250px;
+  background-color: #be76f7;
+  border: 1px solid #000000;
+  border-radius: 15px;
+  padding: 20px;
+  display: block;
+  position: absolute;
+  top: 51px;
+}
+body > header nav > ul > li:hover ul > li {
+  margin: 3px;
+  padding: 3px;
+  border-bottom: 1px solid #000000;
+}
+body > header nav > ul > li:hover ul > li a:hover {
+  text-decoration: underline;
+}
+body > section {
+  float: left;
+  width: 75%;
+}
+body > section > article {
+  border: 2px solid #000000;
+  border-radius: 15px;
+  margin: 20px;
+  padding: 20px;
+}
+body > section > article header h1 {
+  font-size: 19.2px;
+  margin: 15px 10px;
+}
+body > aside {
+  float: right;
+  width: 25%;
+}
+body > aside > ul > li {
+  padding: 20px;
+  margin: 15px 30px;
+  border: 2px solid #000000;
+  border-radius: 7.5px;
+  line-height: 20.8px;
+}
+body > aside > ul > li > ul > li:before {
+  content: url(images/li-dot.png);
+  display: inline;
+  vertical-align: top;
+}
+body > aside > ul > li h2 {
+  margin-bottom: 10px;
+}
+body > footer {
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
+  clear: both;
+}
+/*# sourceMappingURL=style.css.map */

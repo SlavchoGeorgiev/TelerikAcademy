@@ -1,0 +1,44 @@
+﻿body {
+    background-color: #535353;
+    font-family: Arial;
+}
+th {
+    color: gray;
+}
+
+th, td {
+    text-align: left;
+    vertical-align: top;
+    padding: 10px;
+}
+
+td:first-child {
+    color: lightgray;
+    font-style: italic;
+}
+
+.clrRed {
+    color: red;
+}
+
+.clrGray {
+    color: darkgray;
+}
+
+.clrGold {
+    color: palegoldenrod;
+}
+
+.clrOrange {
+    color: orange;
+}
+
+.circle {
+    background-color: green;
+	border-radius: 50%;
+	width: 13px;
+	height: 13px;
+    float:left;
+    margin-top: 3px;
+    margin-right: 3px;
+}

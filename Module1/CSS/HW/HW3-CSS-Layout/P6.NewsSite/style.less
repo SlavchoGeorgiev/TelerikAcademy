@@ -1,0 +1,92 @@
+﻿body, h1, h2, h3, h4, h5, h6, ul, li, div, nav, section, fieldset, button {
+    margin: 0;
+    padding: 0;
+    font: 16px;
+    font-family: Arial, Verdana, sans-serif;
+}
+
+.clearfix() {
+    zoom: 1;
+
+    &:after {
+        content: ".";
+        display: block;
+        clear: both;
+        visibility: hidden;
+        height: 0;
+    }
+}
+
+#main-container {
+    position: relative;
+    padding-top: 10px;
+    background-color: #1e3741;
+    width: 610px;
+    border: 1px solid #295a68;
+    border-radius: 5px;
+    color: #8da6b0;
+    .clearfix();
+
+    ul {
+        list-style: none;
+
+        li {
+            display: inline-block;
+            margin-right: -5px;
+            background: #4b5f67;
+
+
+            &.current {
+                background-color: #1e3741;
+                color: white;
+            }
+
+            button {
+                border: none;
+                border-left: 1px solid #1e3741;
+                background: none;
+                height: 30px;
+                color: #8da6b0;
+                padding: 5px;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+
+            &.current > ul.current {
+                position: absolute;
+                display: block;
+                width: 235px;
+                left: 1px;
+                top: 53px;
+
+                li {
+                    background: none;
+
+                    button {
+                        width: 235px;
+                        border-bottom: 1px solid #3a4f58;
+                        padding: 10px;
+                        height: 100%;
+                        text-align: left;
+                    }
+
+                    &.current > button {
+                        color: #FFF;
+                        background-color: #00968c;
+                    }
+                }
+            }
+        }
+
+        ul {
+            display: none;
+        }
+    }
+
+    img {
+        float: right;
+        margin: 13px 33px 22px 0;
+    }
+}

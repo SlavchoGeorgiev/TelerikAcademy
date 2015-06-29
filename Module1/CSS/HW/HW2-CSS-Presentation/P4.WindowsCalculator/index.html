@@ -1,0 +1,142 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div id="main-block">
+        <form>
+            <nav>
+                <ul>
+                    <li>View</li>
+                    <li>Edit</li>
+                    <li>Help</li>
+                </ul>
+            </nav>
+            <div id="displays-and-buttons">
+
+                <div id="main-display"><span>8854455</span></div>
+                <div id="bit-view-display">
+                    <div>
+                        <table>
+                            <tr>
+                                <td>0000</td>
+                                <td>0000</td>
+                                <td>0000</td>
+                                <td>0000</td>
+                                <td>0000</td>
+                                <td>0000</td>
+                                <td>0000</td>
+                                <td>0000</td>
+                            </tr>
+                            <tr class="bit-num">
+                                <td>63</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>47</td>
+                                <td></td>
+                                <td></td>
+                                <td>32</td>
+                            </tr>
+                            <tr>
+                                <td>0000</td>
+                                <td>0000</td>
+                                <td>0000</td>
+                                <td>0000</td>
+                                <td>0000</td>
+                                <td>0000</td>
+                                <td>0000</td>
+                                <td>0000</td>
+                            </tr>
+                            <tr class="bit-num">
+                                <td>31</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>15</td>
+                                <td></td>
+                                <td></td>
+                                <td>0</td>
+                            </tr>
+                        </table>
+
+                    </div>
+                </div>
+                <div id="radio-btn-container">
+                    <div id="radio-btn">
+                        <div class="radio-set">
+                            <input type="radio" name="num-sys" id="hex" checked="checked" />
+                            <label for="hex">Hex</label><br />
+                            <input type="radio" name="num-sys" id="dec" />
+                            <label for="dec">Dec</label><br />
+                            <input type="radio" name="num-sys" id="oct" />
+                            <label for="oct">Oct</label><br />
+                            <input type="radio" name="num-sys" id="bin" />
+                            <label for="bin">Bin</label><br />
+                        </div>
+                        <div class="radio-set">
+                            <input type="radio" name="words" id="qword" />
+                            <label for="qword">Qword</label><br />
+                            <input type="radio" name="words" id="dword" checked="checked" />
+                            <label for="dword">Dword</label><br />
+                            <input type="radio" name="words" id="word" />
+                            <label for="word">Word</label><br />
+                            <input type="radio" name="words" id="byte" />
+                            <label for="byte">Byte</label><br />
+                        </div>
+                    </div>
+                    <input type="button" value="" name="empty" disabled="disabled"/>
+                    <input type="button" value="Mod" name="mod" />
+                    <input type="button" value="A" name="A" disabled="disabled" />
+                    <input type="button" value="MC" name="mc" class="mbtn" />
+                    <input type="button" value="MR" name="mr" class="mbtn" />
+                    <input type="button" value="MS" name="ms" class="mbtn" />
+                    <input type="button" value="M+" name="mplus" class="mbtn" />
+                    <input type="button" value="M-" name="mminus" class="mbtn" />
+                    <input type="button" value="(" name="leftbracket"  />
+                    <input type="button" value=")" name="rightbracket" />
+                    <input type="button" value="B" name="b" disabled="disabled" />
+                    <input type="button" value="&#8592;" name="leftarrow" />
+                    <input type="button" value="CE" name="ce" />
+                    <input type="button" value="C" name="c" />
+                    <input type="button" value="+-" name="plus-minus" />
+                    <input type="button" value="&radic;" name="sqrt" disabled="disabled" />
+                    <input type="button" value="RoL" name="rol" />
+                    <input type="button" value="RoR" name="ror" />
+                    <input type="button" value="C" name="c" disabled="disabled" />
+                    <input type="button" value="7" name="seven" class="number" />
+                    <input type="button" value="8" name="eight" class="number" />
+                    <input type="button" value="9" name="nine" class="number" />
+                    <input type="button" value="/" name="slash" />
+                    <input type="button" value="%" name="percent" disabled="disabled" />
+                    <input type="button" value="Or" name="or" />
+                    <input type="button" value="Xor" name="xor" />
+                    <input type="button" value="D" name="d" disabled="disabled" />
+                    <input type="button" value="4" name="four" class="number" />
+                    <input type="button" value="5" name="five" class="number" />
+                    <input type="button" value="6" name="six" class="number" />
+                    <input type="button" value="*" name="asterisk" />
+                    <input type="button" value="1/x" name="one-dev-x" disabled="disabled" />
+                    <input type="button" value="Lsh" name="lsh" />
+                    <input type="button" value="Rsh" name="rsh" />
+                    <input type="button" value="E" name="e" disabled="disabled" />
+                    <input type="button" value="1" name="one" class="number" />
+                    <input type="button" value="2" name="two" class="number" />
+                    <input type="button" value="3" name="three" class="number" />
+                    <input type="button" value="-" name="minus" />
+                    <input type="button" value="=" name="result" />
+                    <input type="button" value="Not" name="not" />
+                    <input type="button" value="And" name="and" />
+                    <input type="button" value="F" name="f" disabled="disabled" />
+                    <input type="button" value="0" name="zero" class="number" />
+                    <input type="button" value="." name="dot" disabled="disabled" />
+                    <input type="button" value="+" name="plus" />
+
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

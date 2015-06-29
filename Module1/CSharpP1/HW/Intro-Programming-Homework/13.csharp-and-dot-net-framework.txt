@@ -1,0 +1,2 @@
+	C# is programming language developed by Microsoft. The C# language is intended to be a simple, modern, general-purpose, object-oriented programming language. 
+	.NET Framework is software framework developed by Microsoft that runs primarily on Microsoft Windows. Programs written for .NET Framework execute in a software environment, known as Common Language Runtime (CLR). .NET Framework includes a large class library, known as Framework Class Library (FCL). FCL and CLR together constitute .NET Framework.

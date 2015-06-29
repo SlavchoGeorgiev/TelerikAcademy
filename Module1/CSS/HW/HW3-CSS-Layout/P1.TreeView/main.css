@@ -1,0 +1,29 @@
+body {
+    font-size: 16px;
+}
+
+ul {
+    list-style: none;
+    border: 1px solid green;
+}
+
+nav > ul > li > a {
+    color: black;
+}
+
+ul a {
+    text-decoration: none;
+    color: #727071;
+}
+
+    ul a:hover {
+        text-decoration: underline;
+    }
+
+nav > ul > li ul {
+    display: none;
+}
+
+li:hover > ul {
+    display:block;
+}

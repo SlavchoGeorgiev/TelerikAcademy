@@ -1,0 +1,4 @@
+Problem 12. Remove 
+
+Write a  that removes from a text file all  listed in given another text file.
+Handle all possible exceptions in your methods.

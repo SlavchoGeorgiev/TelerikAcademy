@@ -1,0 +1,26 @@
+01 - Microsoft Visual Studio
+
+	Microsoft Visual Studio offers a multitude of editions for developing, testing, and deploying applications for the web, desktop, mobile, and even game consoles
+Languages Supported: Ajax, ASP.NET, XAML, JavaScript, dynamic HTML, DHTML, Visual Basic, Visual C#, Visual C++, Visual F#, JScript
+Several platforms support any programming language
+
+02 - Eclipse
+
+	Many development frameworks are built on Eclipse, a free, open-source editor that was initially a Java environment but a variety of plug-ins have extended its capabilities considerably. 
+Languages Supported: C, C++, Python, Perl, PHP, Java, Ruby and more
+
+03 - Netbeans
+
+	An intuitive, drag-and-drop interface with project templates, binary and static libraries, and many useful functions to make your life simpler, NetBeans is a popular IDE for C and C++ projects. It also supports Fortan and Assembler files, with GNU Debugger Integration and code assistance, NetBeans is a functional IDE for editing existing projects, building on templates or building from scratch on most leading platforms. There are also multiple NetBeans Enterprise IDE Download Bundles with options that support several additional technologies, including Java, PHP, HTML5 and more.
+Languages Supported: C, C++, C++11, Fortan, Assembler
+
+04 - Code::Blocks
+
+	Code::Blocks, an extensible and fully configurable IDE designed to support its users most demanding needs, supports C, C++ and Fortran. It provides a consistent look, feel and operation across all platforms for seamless transitions between work spaces, and it’s built around a plug-in framework, providing a multitude of options for extension. It’s open-source and offers cross-platform functionality with no hidden costs.
+Languages Supported: C, C++, Fortran
+
+
+06 - Komodo IDE
+	
+	Komodo is a comprehensive IDE that supports all major programming languages, providing a single tool that meets your development needs across the spectrum. Whether you’re working with Python, PHP, Ruby, Perl, HTML, CSS or JavaScript, Komodo provides a clean, intuitive interface with advanced editing capabilities and integrated tools for the most functionality.
+Languages Supported: Python, PHP, Ruby, Perl, HTML, CSS and JavaScript

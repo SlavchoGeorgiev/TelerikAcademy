@@ -1,0 +1,154 @@
+
+  <system.webServer>
+    <handlers>
+      <add name="Browser Link for HTML" path="*.html" verb="*"
+           type="System.Web.StaticFileHandler, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
+           resourceType="File" preCondition="integratedMode" />
+    </handlers>
+    <staticContent>
+      <mimeMap fileExtension=".less" mimeType="text/css" />
+    </staticContent>
+  </system.webServer>
+
+
+--------------ClearFix------------------------------------------
+.clearfix() {
+    zoom: 1;
+
+    &:after {
+        content: ".";
+        display: block;
+        clear: both;
+        height: 0;
+        line-height: 0;
+        visibility: hidden;
+    }
+}
+
+
+-------------LinerGradient---------------------------------------
+.linear-gradient(@from-color, @from-pos, @to-color, @to-pos){
+
+    background: @from-color;
+
+    background: -moz-linear-gradient(top,  @from-color @from-pos, @to-color @to-pos);
+
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(@from-pos,@from-color), color-stop(@to-pos,@to-color));
+
+    background: -webkit-linear-gradient(top,  @from-color @from-pos,@to-color @to-pos);
+
+    background: -o-linear-gradient(top,  @from-color @from-pos,@to-color @to-pos);
+
+    background: -ms-linear-gradient(top,  @from-color @from-pos,@to-color @to-pos);
+
+    background: linear-gradient(to bottom,  @from-color @from-pos,@to-color @to-pos);
+
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='@from-color', endColorstr='@to-color',GradientType=0 );
+
+}
+
+
+
+--------------RESERTS--------------------------------------------
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}

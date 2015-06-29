@@ -1,0 +1,145 @@
+﻿html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {
+    line-height: 1;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+.linear-gradient(@from-color, @from-pos, @to-color, @to-pos) {
+    background: @from-color;
+    background: -moz-linear-gradient(top, @from-color @from-pos, @to-color @to-pos);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(@from-pos,@from-color), color-stop(@to-pos,@to-color));
+    background: -webkit-linear-gradient(top, @from-color @from-pos,@to-color @to-pos);
+    background: -o-linear-gradient(top, @from-color @from-pos,@to-color @to-pos);
+    background: -ms-linear-gradient(top, @from-color @from-pos,@to-color @to-pos);
+    background: linear-gradient(to bottom, @from-color @from-pos,@to-color @to-pos);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='@from-color', endColorstr='@to-color',GradientType=0 );
+}
+
+#wrapper {
+    font-size: 16px;
+    font-family: "Courier New", Courier, 'Nimbus Mono L', monospace;
+    width: 960px;
+
+    ul {
+        list-style: none;
+
+        li {
+            position: relative;
+            display: block;
+            float: left;
+            .linear-gradient(#25DCF2, 0%, #7995E2, 100%);
+            border: 1px solid #000000;
+            border-radius: 10px;
+            margin-left: 10px;
+            margin-top: 10px;
+            padding: 10px 20px;
+
+            &:hover {
+                font-size: 1.5rem;
+                padding: 10px 45px;
+
+                div.content {
+                    display: block;
+                    position: absolute;
+                    border: 1px solid #000000;
+                    border-radius: 10px;
+                    .linear-gradient(#FEFFFF, 0%, #A0D8EF, 100%);
+                    padding: 10px 20px;
+                    left: 20px;
+                    top: 36px;
+                    font-size: 16px;
+
+                    h3 {
+                        font-size: 1.2rem;
+                        text-decoration: underline;
+                        margin: 15px;
+                    }
+
+                    p {
+                        margin: 15px 0 20px 0;
+
+                        span {
+                            font-weight: bold;
+                        }
+                    }
+                }
+
+                &:nth-of-type(1) > div.content {
+                    width: 250px;
+                }
+
+                &:nth-of-type(2) > div.content {
+                    width: 280px;
+                }
+
+                &:nth-of-type(3) > div.content {
+                    width: 250px;
+                    padding: 0;
+                    font-size: 16px;
+
+                    ul {
+                        padding: 0;
+                        margin: 0;
+                        display: block;
+                        list-style-type: disc;
+
+                        li {
+                            padding: 0;
+                            margin: 0;
+                            display: block;
+                            clear: both;
+                            border: 0;
+                            background: none;
+                            padding: 0 0;
+
+                            &:hover a {
+                                text-decoration: underline;
+                            }
+
+                            a {
+                                font-size: 16px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            a {
+                text-decoration: none;
+                color: #2A00FF;
+            }
+
+            div.content {
+                display: none;
+            }
+        }
+    }
+}
+
+div.content > ul > li {
+    display: block;
+}

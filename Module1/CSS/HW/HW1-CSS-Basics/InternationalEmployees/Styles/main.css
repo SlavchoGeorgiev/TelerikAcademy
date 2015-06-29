@@ -1,0 +1,75 @@
+﻿body {
+    font-family: sans-serif;
+    font-size: 12px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.employeesTable, td, th {
+    border-style: solid;
+    border-color: #808080;
+    border-spacing: 0px;
+    border-width: 0px;
+}
+
+.employeesTable img {
+    width: 22px;
+    height: 16px;
+    margin-right: 4px;
+    display: inline-block;
+}
+
+th, td {
+    padding: 4px;
+    vertical-align: middle;
+}
+
+th {
+    border-width: 1px;
+    font-weight: normal;
+    color: #ffffff;
+    text-align: left;
+    background: #59bd06; /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIxJSIgc3RvcC1jb2xvcj0iIzU5YmQwNiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0ZWIxMDYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top, #59bd06 1%, #4eb106 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#59bd06), color-stop(100%,#4eb106)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #59bd06 1%,#4eb106 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #59bd06 1%,#4eb106 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #59bd06 1%,#4eb106 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #59bd06 1%,#4eb106 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#59bd06', endColorstr='#4eb106',GradientType=0 ); /* IE6-8 */
+}
+
+td {
+    border-left-width: 1px;
+}
+
+    td:first-of-type {
+        border-left-width: 0px;
+    }
+
+th:nth-of-type(1) {
+    width: 130px;
+}
+
+th:nth-child(2) {
+    width: 100px;
+}
+
+th:nth-child(3) {
+    width: 116px;
+}
+
+th:last-child {
+    width: 72px;
+}
+
+tr:last-child > td {
+    border-bottom-width: 1px;
+}
+
+tr:nth-of-type(2n) {
+    background-color: #ececd8;
+}
+

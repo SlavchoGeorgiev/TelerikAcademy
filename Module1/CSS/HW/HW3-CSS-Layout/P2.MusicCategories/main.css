@@ -1,0 +1,74 @@
+﻿body {
+    font-size: 16px;
+    font-family: Arial, 'Times New Roman';
+}
+
+h1 {
+    font-size: 1.2em;
+    font-weight: normal;
+}
+
+body, div, button, img, p, h1 {
+    padding: 0;
+    margin: 0;
+}
+
+#music-categorie {
+    background-color: #ececec;
+    width: 400px;
+    border-radius: 10px;
+    padding: 13px;
+}
+
+    #music-categorie div {
+        font-size: 0.8em;
+        border: 1px solid #999;
+        min-height: 86px;
+        margin: 36px 0px 18px 0px;
+        padding: 15px;
+        background-color: white;
+        position: relative;
+    }
+
+    #music-categorie img {
+        border: 1px solid #999;
+        float: left;
+        margin-right: 15px;
+    }
+
+p {
+    padding-right: 10px;
+    /*margin-bottom: 40px;*/
+}
+
+#music-categorie form {
+    display: block;
+    position: absolute;
+    margin-top: 5px;
+    bottom: 15px;
+    right: 15px;
+}
+
+.button-listen, .button-add {
+    border: 0;
+    color: white;
+    height: 25px;
+    text-align: center;
+    padding: 4px;
+}
+
+.button-listen {
+    background-image: url(images/btn1.jpg);
+    width: 76px;
+}
+
+.button-add {
+    background-image: url(images/btn2.jpg);
+    width: 63px;
+}
+
+    .button-listen:hover, .button-add:hover {
+        -moz-box-shadow: #521515 3px 1px 5px;
+        -webkit-box-shadow: #521515 3px 1px 5px;
+        box-shadow: #521515 3px 1px 5px;
+    }

@@ -1,0 +1,175 @@
+﻿body, h1, h2, h3, div, p, a, nav, aside, section, article, ul {
+    margin: 0;
+    padding: 0;
+    font-family: verdana,helvetica,arial,sans-serif;
+    font-size: 11px;
+}
+
+ul {
+    list-style: none;
+}
+
+#main-container {
+    background-color: #f1f1f1;
+    border: 1px solid #000;
+    width: 788px;
+    overflow: auto;
+}
+
+#site-nav {
+    width: 133px;
+    margin: 2px;
+    padding: 2px;
+    float: left;
+}
+
+    #site-nav a {
+        color: black;
+        text-decoration: none;
+    }
+
+    #site-nav > a:first-of-type {
+        font-weight: bold;
+        text-transform: uppercase;
+        display: inline-block;
+        margin: 10px 0 0 0;
+    }
+
+        #site-nav > a:first-of-type:before {
+            content: url(images/home.png);
+            position: relative;
+            left: -3px;
+        }
+
+    #site-nav a:hover {
+        text-decoration: underline;
+    }
+
+    #site-nav > ul {
+        margin-top: 14px;
+    }
+
+        #site-nav > ul > li:first-of-type {
+            font-weight: bold;
+            color: #900000;
+        }
+
+
+#main-container > section {
+    background-color: #FFF;
+    float: left;
+    width: 488px;
+    padding: 3px;
+    margin-top: 2px;
+    border: 1px solid #808080;
+}
+
+    #main-container > section button {
+        background-color: white;
+        width: 100px;
+        height: 20px;
+        border: 1px solid black;
+        margin: 3px;
+    }
+
+    #main-container > section form {
+        border-top: 2px solid #808080;
+        border-bottom: 2px solid #808080;
+        padding: 8px 0;
+        margin: 8px 0;
+    }
+
+    #main-container > section a {
+        color: #a00000;
+    }
+
+    #main-container > section form:first-of-type {
+        border-top: 0;
+    }
+
+    #main-container > section header h2 {
+        color: #FFF;
+        background-color: #808080;
+        padding-left: 3px;
+    }
+
+    #main-container > section > section:first-of-type article {
+        font-weight: bold;
+    }
+
+    #main-container > section article img {
+        float: left;
+        margin-right: 10px;
+    }
+
+    #main-container > section article:last-child::after {
+        content: ".";
+        display: block;
+        clear: both;
+        height: 0;
+        visibility: hidden;
+    }
+
+    #main-container > section p {
+        margin: 12px 0;
+    }
+
+#main-container > aside {
+    text-align: center;
+    float: right;
+    width: 150px;
+}
+
+    #main-container > aside h3 {
+        background-color: #808080;
+        color: #FFF;
+        text-transform: uppercase;
+    }
+
+    #main-container > aside li {
+        background-color: #FFF;
+        border: 1px solid #808080;
+        margin-bottom: 2px;
+        padding: 5px;
+    }
+
+        #main-container > aside li:first-of-type {
+            margin: 0;
+            border: none;
+            padding: 0;
+        }
+
+        #main-container > aside li input[type=text] {
+            width: 90px;
+            height: 12px;
+            margin-left: 2px;
+            margin-top: 5px;
+        }
+
+    #main-container > aside ul:first-of-type > li:nth-of-type(2) button {
+        border: 1px solid black;
+        border-radius: 2px;
+        font-size: 1em;
+        margin: 0;
+        padding: 0;
+        width: 20px;
+        height: 16px;
+    }
+
+    #main-container > aside ul:first-of-type > li:nth-of-type(3) button {
+        height: 30px;
+        width: 100px;
+        color: #2cc9fe;
+        border: 1px solid #679bc2;
+        background-color: #d2effe;
+        border-radius: 1px;
+    }
+
+    #main-container > aside a {
+        color: #a00000;
+    }
+
+#main-container header h1 {
+    font-size: 1.6em;
+    margin: 15px 2px 0;
+}
