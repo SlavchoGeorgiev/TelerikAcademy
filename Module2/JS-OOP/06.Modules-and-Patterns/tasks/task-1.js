@@ -115,6 +115,54 @@ function solve() {
                 return this;
             },
             getTopStudents: function () {
+                var topTenStudents = [],
+                    i,
+                    len,
+                    key,
+                    result = [],
+                    currentStudent,
+                    currentStudentIndex,
+                    currentStudentId,
+                    examWeight = 0.75,
+                    homeworkWeight = 0.25,
+                    copyOfListOfStudent = this.listOfStudents.slice();
+
+                for (key in copyOfListOfStudent) {
+                    copyOfListOfStudent[key].finalSore = 0;
+                }
+
+                // Add exam score to final score;
+                for (key in this.examResults) {
+                    currentStudentId = this.examResults[key].StudentID;
+                    currentStudentIndex = this.findStudentById(currentStudentId);
+                    currentStudent = copyOfListOfStudent[currentStudentIndex];
+                    currentStudent.finalSore += examWeight * this.examResults[key].Score;
+                }
+
+                // Add homework score to final score;
+                for (currentStudentId in this.listOfSubmitedHomeworks) {
+                    currentStudentIndex = this.findStudentById(currentStudentId);
+                    currentStudent = copyOfListOfStudent[currentStudentIndex];
+                    currentStudent.finalSore += homeworkWeight * (this.listOfSubmitedHomeworks[currentStudentId].length / this.presentations.length) * 100;
+                }
+
+                //Sort student by final score
+                copyOfListOfStudent = copyOfListOfStudent.sort(function (a, b) {
+                    return b.finalSore - a.finalSore;
+                });
+
+                if (copyOfListOfStudent.length < 10) {
+                    len = copyOfListOfStudent.length;
+                }
+                else {
+                    len = 10;
+                }
+
+                for (i = 0; i < len; i += 1) {
+                    result.push(copyOfListOfStudent[i]);
+                }
+
+                return result;
             },
             getNextStudentId: function () {
                 return this.lastStudentId + 1;
@@ -122,7 +170,7 @@ function solve() {
             findStudentById: function (id) {
                 var index;
                 for (index in this.listOfStudents) {
-                    if (this.listOfStudents[index].id === id) {
+                    if (this.listOfStudents[index].id == id) {
                         return index | 0;
                     }
                 }
@@ -224,6 +272,7 @@ function solve() {
 
 module.exports = solve;
 
+//Test Data
 var Course = solve();
 
 var myCourse = Object.create(Course)
@@ -232,21 +281,40 @@ var myCourse = Object.create(Course)
 myCourse.addStudent('Ivaylo Ivanov');
 myCourse.addStudent('Hrist Ivanov');
 myCourse.addStudent('Hohn John');
+myCourse.addStudent('Jhon Don');
+myCourse.addStudent('Hrisi Beova');
+myCourse.addStudent('Iv Zarkova');
 myCourse.addStudent('Mariq Ob');
-console.log(myCourse.getAllStudents());
+myCourse.addStudent('Bon Don');
+myCourse.addStudent('Baj Van');
+//myCourse.addStudent('Baj Van');
+//myCourse.addStudent('Baj Van');
+//myCourse.addStudent('Baj Van');
+//myCourse.addStudent('Baj Van');
+//myCourse.addStudent('Baj Van');
+
+//console.log(myCourse.getAllStudents());
+
 myCourse.submitHomework(1, 1)
     .submitHomework(1, 2)
     .submitHomework(1, 2)
     .submitHomework(2, 1)
-    .submitHomework(3, 2);
+    .submitHomework(3, 2)
+    .submitHomework(6, 1)
+    .submitHomework(6, 2);;
 
-console.log(myCourse.listOfSubmitedHomeworks);
+//console.log(myCourse.listOfSubmitedHomeworks);
 
 myCourse.pushExamResults([
-    {StudentID: 1, Score: 100},
+    {StudentID: 1, Score: 80},
     {StudentID: 2, Score: 50},
-    {StudentID: 3, Score: 10}
+    {StudentID: 3, Score: 10},
+    {StudentID: 5, Score: 70},
+    {StudentID: 6, Score: 100},
+    {StudentID: 7, Score: 36}
 ]);
 
-console.log(myCourse.examResults);
+//console.log(myCourse.examResults);
+
+console.log(myCourse.getTopStudents());
 
