@@ -45,6 +45,7 @@
  */
 
 function solve() {
+    "use strict"
     var Course = {
             init: function (title, presentations) {
                 this.title = title;
@@ -92,7 +93,7 @@ function solve() {
                     var i, len, occurrenceCount = 0;
 
                     if (self.findStudentById(result.StudentID) < 0) {
-                        throw new Error('Student with ID: ' + result.StudentID + ' don\'t exist.')
+                        throw new Error('Student with ID: ' + result.StudentID + ' don\'t exist.');
                     }
 
                     for (i = 0, len = results.length; i < len; i += 1) {
@@ -105,8 +106,8 @@ function solve() {
                         throw new Error('StudentID: ' + result.StudentID + ' is given more than once');
                     }
 
-                    if (typeof(result.Score) !== 'number') {
-                        throw new Error('Score is not a number');
+                    if (typeof(result.score) !== 'number') {
+                        throw new Error('score is not a number');
                     }
                 });
 
@@ -115,8 +116,7 @@ function solve() {
                 return this;
             },
             getTopStudents: function () {
-                var topTenStudents = [],
-                    i,
+                var i,
                     len,
                     key,
                     result = [],
@@ -136,7 +136,7 @@ function solve() {
                     currentStudentId = this.examResults[key].StudentID;
                     currentStudentIndex = this.findStudentById(currentStudentId);
                     currentStudent = copyOfListOfStudent[currentStudentIndex];
-                    currentStudent.finalSore += examWeight * this.examResults[key].Score;
+                    currentStudent.finalSore += examWeight * this.examResults[key].score;
                 }
 
                 // Add homework score to final score;
@@ -301,17 +301,17 @@ myCourse.submitHomework(1, 1)
     .submitHomework(2, 1)
     .submitHomework(3, 2)
     .submitHomework(6, 1)
-    .submitHomework(6, 2);;
+    .submitHomework(6, 2);
 
 //console.log(myCourse.listOfSubmitedHomeworks);
 
 myCourse.pushExamResults([
-    {StudentID: 1, Score: 80},
-    {StudentID: 2, Score: 50},
-    {StudentID: 3, Score: 10},
-    {StudentID: 5, Score: 70},
-    {StudentID: 6, Score: 100},
-    {StudentID: 7, Score: 36}
+    {StudentID: 1, score: 80},
+    {StudentID: 2, score: 50},
+    {StudentID: 3, score: 10},
+    {StudentID: 5, score: 70},
+    {StudentID: 6, score: 100},
+    {StudentID: 7, score: 36}
 ]);
 
 //console.log(myCourse.examResults);
