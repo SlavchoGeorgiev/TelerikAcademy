@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<ul id="books-list" data-template="book-item-template"></ul>
+
+<script id="book-item-template" type="…">
+  <li class="book-item">
+    <a href="/#books/{{id}}">
+      <strong>{{title}}</strong>
+        <p>
+           Authors: {{#each authors}}{{this}}, {{/each}}
+       </p>
+    </a>
+  </li>
+</script>
+<script src="../node_modules/jquery/dist/jquery.js"></script>
+<script src="task-3.js"></script>
+<script>
+    var result = solve();
+    result();
+    $('#books-list').listview([
+        {id: 1, title: 'JavaScript: The Good Parts', authors: ['Ivan', 'Pesho']},
+        {id: 2, title: 'Secrets of the JavaScript Ninja', authors: ['Hristo', 'Mariq']},
+        {id: 3, title: 'Core HTML5 Canvas', authors: ['Gosh', 'Kiro']},
+        {id: 4, title: 'JavaScript Patterns', authors: ['Bojcho', 'Penka']}
+    ]);
+</script>
+</body>
+</html>
