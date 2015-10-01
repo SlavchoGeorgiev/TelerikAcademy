@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="students.xslt"?>
+<students
+  xmlns="urn:students"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:students students.xsd">
+  <student>
+    <name>Pesho Ivanov</name>
+    <sex>Male</sex>
+    <birthdate>1987-04-04</birthdate>
+    <phone>0888666999</phone>
+    <email>pesho_picha@poshta.com</email>
+    <course>1</course>
+    <specialty>IT</specialty>
+    <facultynumber>M22666</facultynumber>
+    <takenexams>
+      <exam>
+        <name>Java Script Fundamental</name>
+        <tutor>eng. Gosho Ivanov</tutor>
+        <score>6</score>
+        <endorsement>true</endorsement>
+      </exam>
+    </takenexams>
+  </student>
+  <student>
+    <name>Ivancho Petrov</name>
+    <sex>Male</sex>
+    <birthdate>1986-03-04</birthdate>
+    <phone>0888677799</phone>
+    <email>ivancho@poshta.com</email>
+    <course>2</course>
+    <specialty>IT</specialty>
+    <facultynumber>M22666</facultynumber>
+    <takenexams>
+      <exam>
+        <name>Java Script Fundamental</name>
+        <tutor>eng. Gosho Ivanov</tutor>
+        <score>6</score>
+        <endorsement>true</endorsement>
+      </exam>
+      <exam>
+        <name>Java Script OOP</name>
+        <tutor>eng. Gosho Ivanov</tutor>
+        <score>4</score>
+        <endorsement>true</endorsement>
+      </exam>
+      <exam>
+        <name>Java Script UI and DOM</name>
+        <tutor>doc. Penka Ivanova</tutor>
+        <score>5</score>
+        <endorsement>false</endorsement>
+      </exam>
+    </takenexams>
+  </student>
+  <student>
+    <name>Hristina Markova</name>
+    <sex>Female</sex>
+    <birthdate>1989-10-04</birthdate>
+    <phone>0887677889</phone>
+    <email>macka89@svalka.com</email>
+    <course>1</course>
+    <specialty>PR</specialty>
+    <facultynumber>M22886</facultynumber>
+    <takenexams>
+      <exam>
+        <name>Public relations</name>
+        <score>5</score>
+        <tutor>prof. Atanas Apaorstov</tutor>
+        <endorsement>true</endorsement>
+      </exam>
+      <exam>
+        <name>Public speech</name>
+        <score>6</score>
+        <tutor>prof. Atanas Apaorstov</tutor>
+        <endorsement>false</endorsement>
+      </exam>
+    </takenexams>
+  </student>
+</students>
