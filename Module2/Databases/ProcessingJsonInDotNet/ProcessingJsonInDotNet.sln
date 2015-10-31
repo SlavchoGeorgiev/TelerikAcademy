@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Students", "Students\Students.csproj", "{9E0B5A37-29C4-4032-9AB3-7ECE67419344}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoutubeRssFeedParse", "YoutubeRssFeedParse\YoutubeRssFeedParse.csproj", "{AD9F3457-C2AA-485F-B73F-B35B85A3D994}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9E0B5A37-29C4-4032-9AB3-7ECE67419344}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9E0B5A37-29C4-4032-9AB3-7ECE67419344}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9E0B5A37-29C4-4032-9AB3-7ECE67419344}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9E0B5A37-29C4-4032-9AB3-7ECE67419344}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD9F3457-C2AA-485F-B73F-B35B85A3D994}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD9F3457-C2AA-485F-B73F-B35B85A3D994}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD9F3457-C2AA-485F-B73F-B35B85A3D994}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD9F3457-C2AA-485F-B73F-B35B85A3D994}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameworkDBFirst.ConsoleUI", "EntityFrameworkDBFirst.ConsoleUI\EntityFrameworkDBFirst.ConsoleUI.csproj", "{C8BED59C-7562-47C8-930D-207F0D2D1A00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameworkDBFirst.Data", "EntityFrameworkDBFirst.Data\EntityFrameworkDBFirst.Data.csproj", "{A0C5A579-16BF-435A-B52C-8F1F542290CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C8BED59C-7562-47C8-930D-207F0D2D1A00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8BED59C-7562-47C8-930D-207F0D2D1A00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8BED59C-7562-47C8-930D-207F0D2D1A00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8BED59C-7562-47C8-930D-207F0D2D1A00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0C5A579-16BF-435A-B52C-8F1F542290CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0C5A579-16BF-435A-B52C-8F1F542290CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0C5A579-16BF-435A-B52C-8F1F542290CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0C5A579-16BF-435A-B52C-8F1F542290CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

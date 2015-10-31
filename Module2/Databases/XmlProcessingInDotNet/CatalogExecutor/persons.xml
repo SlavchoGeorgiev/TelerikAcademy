@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<persons>
+  <person>
+    <name>Ivan Ivanov</name>
+    <address>Sofia Alabin str. 20</address>
+    <phone>0888632236</phone>
+  </person>
+  <person>
+    <name>Maria Apostolova</name>
+    <address>Varna Bezimenna str. 25</address>
+    <phone>+359885425560</phone>
+  </person>
+  <person>
+    <name>Karasi Ignatov</name>
+    <address>Vraca Garga str. 16</address>
+    <phone>+359885556677</phone>
+  </person>
+</persons>

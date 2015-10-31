@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<catalog>
+  <album>
+    <name>
+      Ръгай чушки в боба
+    </name>
+    <artist>Слави Трифонов</artist>
+    <year>
+      1993
+    </year>
+    <producer>
+      Seven eight
+    </producer>
+    <price>
+      10.50
+    </price>
+    <songs>
+      <song>
+        <title>Градил Илия килия</title>
+        <duration>2.6</duration>
+      </song>
+      <song>
+        <title>Танго на БСП (к)</title>
+        <duration>3.6</duration>
+      </song>
+      <song>
+        <title>Кино</title>
+        <duration>4.5</duration>
+      </song>
+    </songs>
+  </album>
+  <album>
+    <name>
+      Шат на патката главата
+    </name>
+    <artist>
+      Слави Трифонов
+    </artist>
+    <year>
+      1994
+    </year>
+    <producer>
+      Seven eight
+    </producer>
+    <price>
+      21.50
+    </price>
+    <songs>
+      <song>
+        <title>Дулсинея</title>
+        <duration>2.6</duration>
+      </song>
+      <song>
+        <title>Шат на патката главата</title>
+        <duration>3.3</duration>
+      </song>
+      <song>
+        <title>Тупан текно</title>
+        <duration>2.9</duration>
+      </song>
+      <song>
+        <title>Рокендрол на падащите бабички</title>
+        <duration>2.6</duration>
+      </song>
+      <song>
+        <title>Малка антиполитическа</title>
+        <duration>4.6</duration>
+      </song>
+      <song>
+        <title>Рокендрол на падащите бабички</title>
+        <duration>3.6</duration>
+      </song>
+      <song>
+        <title>Шъ та праа да умиргаш</title>
+        <duration>3.56</duration>
+      </song>
+      <song>
+        <title>Зима е (Summertime)</title>
+        <duration>4.23</duration>
+      </song>
+    </songs>
+  </album>
+  <album>
+    <name>
+      Skillet
+    </name>
+    <artist>
+      John L. Cooper
+    </artist>
+    <year>
+      1996
+    </year>
+    <producer>
+      Unknown
+    </producer>
+    <price>
+      22.50
+    </price>
+    <songs>
+      <song>
+        <title>I Can</title>
+        <duration>5.26</duration>
+      </song>
+      <song>
+        <title>Gasoline</title>
+        <duration>3.6</duration>
+      </song>
+      <song>
+        <title>Saturn</title>
+        <duration>2.95</duration>
+      </song>
+      <song>
+        <title>My Beautiful Robe</title>
+        <duration>3.36</duration>
+      </song>
+      <song>
+        <title>Promise Blender</title>
+        <duration>4.16</duration>
+      </song>
+      <song>
+        <title>Paint</title>
+        <duration>3.3</duration>
+      </song>
+      <song>
+        <title>Safe with You</title>
+        <duration>4.12</duration>
+      </song>
+      <song>
+        <title>You Thought</title>
+        <duration>3.66</duration>
+      </song>
+    </songs>
+  </album>
+</catalog>
