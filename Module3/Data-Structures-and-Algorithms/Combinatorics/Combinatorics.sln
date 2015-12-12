@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitwizePasswords", "BitwizePasswords\BitwizePasswords.csproj", "{89F3AC6C-2F55-453E-80CA-20110280CC19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColorfulRabbits", "ColorfulRabbits\ColorfulRabbits.csproj", "{5D45F5DD-DAB3-4065-8F1B-2C9AFDC5835E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deviders", "Deviders\Deviders.csproj", "{274DC0EC-217B-46EF-BD6D-7D50DB22A30B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89F3AC6C-2F55-453E-80CA-20110280CC19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89F3AC6C-2F55-453E-80CA-20110280CC19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89F3AC6C-2F55-453E-80CA-20110280CC19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89F3AC6C-2F55-453E-80CA-20110280CC19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D45F5DD-DAB3-4065-8F1B-2C9AFDC5835E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D45F5DD-DAB3-4065-8F1B-2C9AFDC5835E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D45F5DD-DAB3-4065-8F1B-2C9AFDC5835E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D45F5DD-DAB3-4065-8F1B-2C9AFDC5835E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{274DC0EC-217B-46EF-BD6D-7D50DB22A30B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{274DC0EC-217B-46EF-BD6D-7D50DB22A30B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{274DC0EC-217B-46EF-BD6D-7D50DB22A30B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{274DC0EC-217B-46EF-BD6D-7D50DB22A30B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

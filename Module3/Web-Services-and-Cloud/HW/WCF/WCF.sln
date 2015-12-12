@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheDayOfTheWeek", "TheDayOfTheWeek\TheDayOfTheWeek.csproj", "{9CABA5D7-004E-405C-97CD-285E97B2B399}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DayOfTheWeekConsoleClient", "DayOfTheWeekConsoleClient\DayOfTheWeekConsoleClient.csproj", "{D183CB37-E585-4662-8D97-3EC47C24D4CB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9CABA5D7-004E-405C-97CD-285E97B2B399} = {9CABA5D7-004E-405C-97CD-285E97B2B399}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringCounterService", "StringCounterService\StringCounterService.csproj", "{1C5CC6F5-DB9D-46B9-9EEE-BA789749B198}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringCounterConsoleSelfHost", "StringCounterConsoleSelfHost\StringCounterConsoleSelfHost.csproj", "{5E669AE3-F92E-4B68-97BF-1F0935D2AC3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringCounterConsoleClient", "StringCounterConsoleClient\StringCounterConsoleClient.csproj", "{6820FB79-768E-4FC5-A724-553E179E36CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9CABA5D7-004E-405C-97CD-285E97B2B399}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CABA5D7-004E-405C-97CD-285E97B2B399}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CABA5D7-004E-405C-97CD-285E97B2B399}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CABA5D7-004E-405C-97CD-285E97B2B399}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D183CB37-E585-4662-8D97-3EC47C24D4CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D183CB37-E585-4662-8D97-3EC47C24D4CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D183CB37-E585-4662-8D97-3EC47C24D4CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D183CB37-E585-4662-8D97-3EC47C24D4CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C5CC6F5-DB9D-46B9-9EEE-BA789749B198}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C5CC6F5-DB9D-46B9-9EEE-BA789749B198}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C5CC6F5-DB9D-46B9-9EEE-BA789749B198}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C5CC6F5-DB9D-46B9-9EEE-BA789749B198}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E669AE3-F92E-4B68-97BF-1F0935D2AC3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E669AE3-F92E-4B68-97BF-1F0935D2AC3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E669AE3-F92E-4B68-97BF-1F0935D2AC3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E669AE3-F92E-4B68-97BF-1F0935D2AC3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6820FB79-768E-4FC5-A724-553E179E36CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6820FB79-768E-4FC5-A724-553E179E36CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6820FB79-768E-4FC5-A724-553E179E36CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6820FB79-768E-4FC5-A724-553E179E36CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

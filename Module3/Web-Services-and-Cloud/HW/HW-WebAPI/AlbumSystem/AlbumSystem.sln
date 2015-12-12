@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{6E847D5B-A1C4-4F73-8299-84B3D1A105B8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server", "Server", "{BCE0EFF6-8210-4BF4-AB7A-1A6ECC178F18}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{D3BA8530-5D42-4A97-84B0-2036975BDBD9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{625EA5EC-0946-430B-9D3F-373983E74793}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlbumSystem.Models", "Data\AlbumSystem.Models\AlbumSystem.Models.csproj", "{17788C7C-FFAC-4B6D-9787-16FB2F2112DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlbumSystem.Data", "Data\AlbumSystem.Data\AlbumSystem.Data.csproj", "{88A5749A-1980-48C7-934D-EAB155365FA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlbumSystem.Api", "Server\AlbumSystem.Api\AlbumSystem.Api.csproj", "{2BA82FDC-11A6-4733-985F-6847D80FE68F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlbumSystem.Common", "AlbumSystem.Common\AlbumSystem.Common.csproj", "{13DB53E3-1722-4995-AA48-0E7B3D42A3C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlbumSystem.Services.Data", "Services\AlbumSystem.Services.Data\AlbumSystem.Services.Data.csproj", "{35AC19E8-E672-49E4-898F-F38B59A8554D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17788C7C-FFAC-4B6D-9787-16FB2F2112DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17788C7C-FFAC-4B6D-9787-16FB2F2112DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17788C7C-FFAC-4B6D-9787-16FB2F2112DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17788C7C-FFAC-4B6D-9787-16FB2F2112DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88A5749A-1980-48C7-934D-EAB155365FA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88A5749A-1980-48C7-934D-EAB155365FA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88A5749A-1980-48C7-934D-EAB155365FA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88A5749A-1980-48C7-934D-EAB155365FA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BA82FDC-11A6-4733-985F-6847D80FE68F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BA82FDC-11A6-4733-985F-6847D80FE68F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BA82FDC-11A6-4733-985F-6847D80FE68F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BA82FDC-11A6-4733-985F-6847D80FE68F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13DB53E3-1722-4995-AA48-0E7B3D42A3C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13DB53E3-1722-4995-AA48-0E7B3D42A3C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13DB53E3-1722-4995-AA48-0E7B3D42A3C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13DB53E3-1722-4995-AA48-0E7B3D42A3C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35AC19E8-E672-49E4-898F-F38B59A8554D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35AC19E8-E672-49E4-898F-F38B59A8554D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35AC19E8-E672-49E4-898F-F38B59A8554D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35AC19E8-E672-49E4-898F-F38B59A8554D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{17788C7C-FFAC-4B6D-9787-16FB2F2112DE} = {6E847D5B-A1C4-4F73-8299-84B3D1A105B8}
+		{88A5749A-1980-48C7-934D-EAB155365FA4} = {6E847D5B-A1C4-4F73-8299-84B3D1A105B8}
+		{2BA82FDC-11A6-4733-985F-6847D80FE68F} = {BCE0EFF6-8210-4BF4-AB7A-1A6ECC178F18}
+		{35AC19E8-E672-49E4-898F-F38B59A8554D} = {D3BA8530-5D42-4A97-84B0-2036975BDBD9}
+	EndGlobalSection
+EndGlobal
