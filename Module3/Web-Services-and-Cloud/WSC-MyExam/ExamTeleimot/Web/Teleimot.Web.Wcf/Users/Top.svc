@@ -1,0 +1,6 @@
+﻿<%@ ServiceHost 
+    Language="C#" 
+    Debug="true" 
+    Service="Teleimot.Web.Wcf.Users.Top"
+    CodeBehind="Top.svc.cs" 
+    Factory="System.ServiceModel.Activation.WebServiceHostFactory" %>
